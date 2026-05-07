@@ -58,7 +58,7 @@ const parseTime = (t) => {
 export default function VolunteerApp() {
   const [isLoading, setIsLoading] = useState(true);
   const [role, setRole] = useState("volunteer");
-  const [currentDate, setCurrentDate] = useState(new Date(new Date());
+  const [currentDate, setCurrentDate] = useState(new Date());
   const [currentUser, setCurrentUser] = useState("");
   const [currentAdmin, setCurrentAdmin] = useState(null);
   const todayStr = formatDate(
